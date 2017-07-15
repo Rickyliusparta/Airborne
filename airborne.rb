@@ -11,9 +11,9 @@ describe "postcode works" do
 # 	end
 
 	it "should report to a single postcode" do
-		x = get '/sm69rf'
+		x = get '/sm68rf'
 		y = JSON.parse(x)
-		expect(y['result']['postcode']).to eq "SM6 9RF"
+		expect(y['result']['postcode']).to eq "SM6 8RF"
 		
 	end
 
